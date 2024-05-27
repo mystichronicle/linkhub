@@ -28,11 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
         renderer.setSize(window.innerWidth, window.innerHeight);
     });
 
-    document.getElementById('checkbox').addEventListener('change', function() {
-        if (this.checked) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        } else {
-            document.documentElement.removeAttribute('data-theme');
-        }
-    });
+    // Remove the theme switch event listener
+    // document.getElementById('checkbox').addEventListener('change', function() {
+    //     if (this.checked) {
+    //         document.documentElement.setAttribute('data-theme', 'dark');
+    //     } else {
+    //         document.documentElement.removeAttribute('data-theme');
+    //     }
+    // });
+
+    // Set dark theme by default
+    document.documentElement.setAttribute('data-theme', 'dark');
 });
