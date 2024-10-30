@@ -1,6 +1,6 @@
 # Linkhub
 
-Live at https://opulentloop.github.io/linkhub/
+Live at https://mysticdebjit.github.io/linkhub/
 
 
 Feel free to suggest any kind of improvements.
